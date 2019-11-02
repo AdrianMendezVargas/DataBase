@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CarreraList">
+
+    <Button
+        android:id="@+id/bt_nuevaCarrera"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:background="#3DD13F"
+        android:onClick="agrearCarrera"
+        android:text="Nueva Carrera" />
+
+    <ListView
+        android:id="@+id/lv_carreras"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
